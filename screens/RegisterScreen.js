@@ -1,11 +1,11 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-class HomeScreen extends React.Component {
+export default class RegisterScreen extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text> Loading Screen</Text>
+      <View style={StyleSheet.container}>
+        <Text> RegistrationScreen Screen</Text>
       </View>
     );
   }
@@ -18,5 +18,3 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 });
-
-export default HomeScreen;
